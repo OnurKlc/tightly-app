@@ -1,6 +1,6 @@
 # User Management System
 
-A Vue 3 application built for a frontend developer hiring case study. This application demonstrates modern Vue.js development practices, clean architecture, and responsive design.
+A Vue 3 application that demonstrates Vue.js development practices, clean architecture, and responsive design.
 
 ## Features
 
@@ -86,21 +86,3 @@ npm run build
    - View user posts with pagination (3 per page)
    - Add new posts using the form
    - Delete posts with confirmation
-
-## Key Features
-
-- **Responsive Layout**: Optimized for desktop and mobile
-- **Form Validation**: Required field validation for new posts
-- **Loading States**: Visual feedback during API operations
-- **Error Handling**: User-friendly error messages
-- **Pagination**: Efficient data loading with pagination
-- **Confirmation Dialogs**: Safe deletion with user confirmation
-
-## Best Practices Implemented
-
-- **Component Composition**: Reusable and maintainable components
-- **Service Layer**: Separation of concerns with dedicated API services
-- **Error Boundaries**: Proper error handling and user feedback
-- **Responsive Design**: Mobile-first approach
-- **Type Safety**: Proper prop validation and data handling
-- **Clean Code**: Consistent naming conventions and code organization
