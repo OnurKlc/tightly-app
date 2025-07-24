@@ -9,8 +9,8 @@
         layout="vertical"
         class="new-post-form"
       >
-        <a-row :gutter="16" align="bottom">
-          <a-col :xs="24" :sm="24" :md="8" :lg="8" class="title-form-item">
+        <a-row :gutter="16">
+          <a-col :xs="24" :sm="24" :md="9" :lg="9">
             <a-form-item
               label="Post Title"
               name="title"
@@ -23,7 +23,7 @@
             </a-form-item>
           </a-col>
 
-          <a-col :xs="24" :sm="24" :md="10" :lg="10">
+          <a-col :xs="24" :sm="24" :md="12" :lg="12">
             <a-form-item
               label="Post Content"
               name="body"
@@ -37,7 +37,7 @@
             </a-form-item>
           </a-col>
 
-          <a-col :xs="24" :sm="24" :md="6" :lg="6">
+          <a-col :xs="24" :sm="24" :md="3" :lg="3" class="form-button">
             <a-form-item>
               <a-button
                 type="primary"
@@ -257,7 +257,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
 .add-post-section {
   margin-bottom: 24px;
   padding: 16px;
@@ -265,10 +265,13 @@ export default {
   border-radius: 6px;
 }
 
-.title-form-item {
-  align-self: flex-start;
-}
+.form-button {
+  margin-top: 0;
 
+  @media (min-width: @screen-md-min) {
+    margin-top: 28px;
+  }
+}
 
 .add-post-section h3 {
   margin-bottom: 16px;
